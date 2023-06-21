@@ -5,31 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>JIF STYLE STORE</title>
-    <link href="./img/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link href="./img/favicon_io/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link
         href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Barlow+Condensed:wght@200&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4e9044019f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class="minibar-top no-selection">
+        <div class="minibar-top-text">
+            <h7>10% de descuento en efectivo / Hasta 6 cuotas sin interes</h7>
+        </div>
+    </div>
 
     <!-- SECCION DEL HEADER Y NAVBAR -->
     <header class="fuente-copada">
-
         <!-- LOGO A AL IZQUIERDA -->
         <a id="header__logo-pc" href="index.html">
-            <img src="./img/Logo-bg.png" alt="logo" width="105">
+            <img src="./img/Logo-bg.png" alt="logo">
         </a>
-
         <!-- RESTO DEL MENU -->
-
         <div class="header__links">
             <nav>
                 <input type="checkbox" id="header__check">
@@ -40,18 +40,14 @@
                     <li><a href="./pages/faq.html"><i class="fa fa-question-circle fa-mio"></i>PREGUNTAS FRECUENTES</a>
                     </li>
                     <li><a href="./pages/tienda.html"><i class="fa fa-shop fa-mio"></i>TIENDA</a></li>
-                    <li><a href="./pages/about.html"><i class="fa fa-info fa-mio"></i>SOBRE NOSOTROS</a></li>
-                    <li><a href="./pages/contacto.html"><i class="fa fa-phone fa-mio"></i>CONTACTO</a></li>
+                    <li><a href="./pages/about.html"><i class="fa fa-users fa-mio"></i>SOBRE NOSOTROS</a></li>
+                    <li><a href="./pages/contacto.html"><i class="fa fa-envelope fa-mio"></i>CONTACTO</a></li>
                 </ul>
             </nav>
-
             <a id="header__logo-mobile" href="index.html">
                 <img src="./img/Logo-bg.png" alt="logo" width="85">
             </a>
-
-
             <!-- PANEL DE USUARIO, CARRITO, REGISTRAR NUEVO USUARIO O LOGUEARSE -->
-
             <div class="header__nav-user">
                 <a href="./pages/cart.html" class="carrito-text ">
                     <img src="./img/carrito.png" alt="carrito" class="imagen-carrito" />
@@ -60,32 +56,41 @@
             </div>
         </div>
     </header>
-
-    <!-- AGREGAMOS LAS SECCIONES PRINCIPALES -->
-    <!-- SECCION DE LA PORTADA DONDE VAMOS A METER DISTINTOS BANNERS CON OFERTAS ETC -->
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
+    <!-- AGREGAMOS LAS SECCIONES PRINCIPALES -->
+    <!-- SECCION DE LA PORTADA DONDE VAMOS A METER DISTINTOS BANNERS CON OFERTAS ETC -->
     <section class="portada-section">
-
-        <!-- AGREGO CONTENEDOR -->
-
-        <div class="caja">
-            <div class="bloque-texto-izq">
-                <div class="banner-div">
+        <!-- AGREGO CONTENEDOR y BOOTSTRAP -->
+        <div class="contenedor">
+            <div class="row no-selection">
+                <div class="col-lg-6 banner-div">
                     <div class="top-text">JIF STYLE</div>
-                    <h1 class="titulo-grande fuente-copada">Diseños exclusivos<br />Mirá las promos >>></h1>
+                    <h1 class="titulo-grande fuente-copada">Diseños exclusivos<br />Mirá las promos</h1>
                     <p>Diseños modernos y únicos creados por nuestra marca</p>
-                    <div class="top-padding"><a href="./pages/tienda.html" class="botones-rojos">promos de
-                            invierno</a>
+                    <a href="./pages/tienda.html" class="botones-rojos">promos de invierno</a>
+                    <div class="seccion-medios">
+                        <h1 class="titulo-grande fuente-copada">Medios de pago</h1>
+                        <img src="./img/medios_pago/visa@2x.png" class="medios-img" alt="tarjeta visa">
+                        <img src="./img/medios_pago/mastercard@2x.png" class="medios-img" alt="tarjeta mastercard">
+                        <img src="./img/medios_pago/amex@2x.png" class="medios-img" alt="tarjeta amex">
+                        <img src="./img/medios_pago/diners@2x.png" class="medios-img" alt="tarjeta diners">
+                        <img src="./img/medios_pago/banelco@2x.png" class="medios-img" alt="tarjeta banelco">
+                        <img src="./img/medios_pago/cabal@2x.png" class="medios-img" alt="tarjeta cabal">
+                        <img src="./img/medios_pago/tarjeta-naranja@2x.png" class="medios-img" alt="tarjeta naranja">
+                        <img src="./img/medios_pago/tarjeta-shopping@2x.png" class="medios-img" alt="tarjeta shoping">
+                        <img src="./img/medios_pago/mercadopago@2x.png" class="medios-img" alt="tarjeta mercadopago">
+                        <img src="./img/medios_pago/argencard@2x.png" class="medios-img" alt="tarjeta argencard">
+                        <img src="./img/medios_pago/pagofacil@2x.png" class="medios-img" alt="pago facil">
+                        <img src="./img/medios_pago/rapipago@2x.png" class="medios-img" alt="rapipago">
+                        <img src="./img/medios_pago/maestro@2x.png" class="medios-img" alt="tarjeta maestro">
+                        <img src="./img/medios_pago/cabaldebit@2x.png" class="medios-img" alt="tarjeta cabal debito">
+                        <img src="./img/medios_pago/visa@2x.png" class="medios-img" alt="tarjeta ">
                     </div>
                 </div>
-
-                <!-- AVERIGUAR COMO HACER UN SET DE IMAGENES ROTATIVAS -->
-                <div class="banner-image-div">
+                <div class="col-lg-6">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0"
@@ -94,17 +99,17 @@
                                 aria-label="Slide 2"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="5000">
+                            <div class="carousel-item active" data-bs-interval="4000">
                                 <img src="./img/invierno.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-md-block text-uppercase">
+                                <div class="carousel-caption d-md-block text-uppercase no-selection">
                                     <h2>promos de invierno</h2>
                                     <h3>2x1 en bufandas</h3>
                                 </div>
                             </div>
-                            <div class="carousel-item" data-bs-interval="5000">
+                            <div class="carousel-item" data-bs-interval="4000">
                                 <img src="./img/verano.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-md-block text-uppercase">
-                                    <h2>promo dia del padre</h2>
+                                <div class="carousel-caption d-md-block text-uppercase no-selection">
+                                    <h2>día del padre</h2>
                                     <h3>10% descuento</h3>
                                 </div>
                             </div>
@@ -121,16 +126,13 @@
                         </button>
                     </div>
                 </div>
-
             </div>
 
     </section>
-
     <!-- SECCION COLECCION, METEMOS ALGUNAS PRENDAS PRINCIPALES O NUEVOS INGRESOS -->
-
-    <section class="coleccion-section">
+    <section class="coleccion-section no-selection">
         <p class="top-text">Nuestra tienda online</p>
-        <h2 class="titulo-grande fuente-copada">Colección invierno</h1>
+        <h2 class="titulo-grande fuente-copada">nuevos ingresos</h1>
             <div class="contenedor">
                 <div class="row caja-coleccion">
                     <div class="col-lg-4">
@@ -159,41 +161,31 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="caja3">
                     <a href="./pages/tienda.html" class="botones-rojos">VER TODOS LOS PRODUCTOS</a>
-                </div>
             </div>
-
-
     </section>
 
     <!-- AGREGAMOS UNA SECCION DE TALLES, PARA SABER COMO VAN, IDEALMENTE QUE SEA UN POPUP O ALGO POR EL ESTILO -->
 
     <section class="section-talle">
-
         <!-- AGREGO CONTENEDOR -->
-
         <div class="caja">
-            <div class="bloque-texto-izq">
-                <div class="banner-div">
+                <div class="banner-div no-selection">
                     <div class="top-text">JIF STYLE</div>
                     <h2 class="titulo-grande fuente-copada">No sabés tu talle?</h2>
                     <p style="color:darkred">Utilizá nuestra guía de talles para saber cual te corresponde.</p>
-
                     <!-- AGREGAMOS BOTON -->
                     <button type="button" class="btn btn-primary btn-mio" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
+                        data-bs-target="#talleModal">
                         Guía de talles
                     </button>
-
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade" id="talleModal" tabindex="-1" aria-labelledby="talleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog modal-dialog-mio modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content modal-content-mio">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Guía de talles</h1>
+                                    <h1 class="modal-title fs-5" id="talleModalLabel">Guía de talles</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -208,44 +200,35 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
     <!-- SECCION DE NEWSLETTER PARA SUSCRIBIRSE -->
-
     <section class="mobile-section">
+        <div class="fuente-copada flyer">nuevos ingresos</div>
         <div class="mobile-btn-container">
             <img class="mobile-banner-img" src="./img/camisah.jpg" alt="coleccion-camisas">
             <a href="./pages/tienda.html">ver en tienda</a>
-
         </div>
-        <!-- <div>
-            <img class="mobile-banner-img"src="./img/camperas.jpg" alt="coleccion-camisas">
-        </div> -->
         <div class="mobile-btn-container">
             <img class="mobile-banner-img" src="./img/remeras.jpg" alt="coleccion-camisas">
             <a href="./pages/tienda.html">ver en tienda</a>
         </div>
-
     </section>
-    <section class="section newsletter">
-        <div class="caja">
+    <section class="newsletter-section">
+        <div class="caja-newsletter no-selection">
             <p class="top-text">Suscribite al newsletter</p>
             <h1 class="titulo-grande fuente-copada">
                 <span>Enterate de nuevos ingresos, promos y descuentos</span>
-
                 <!-- UTILIZAMOS LA FONT AWESOME PARA AGREGAR EL ICONO DE MAIL DENTRO DE LA CAJA -->
                 <div class="sobre-icon">
-                    <input type="text" class="news-subscribir" placeholder="Ingresá tu email" />
-
+                    <input type="text" class="news-suscribir" placeholder="Ingresá tu email" />
                     <!-- AGREGAR FUNCIONALIDAD MAS ADELANTE -->
-                    <input type="submit" value="Suscribirme" class="botones-rojos subscribir-button" />
+                    <input type="submit" value="Suscribirme" class="botones-rojos suscribir-button" />
                 </div>
-                <label style="text-align: center;">
-                    <span class="subscribite">Registrá tu email para recibir las ultimas novedades</span>
+                <label>
+                    <span class="suscribite">Registrá tu email para recibir las ultimas novedades</span>
                 </label>
         </div>
-        <!-- <div class="vertical-derecho">NEWSLETTER</div> -->
     </section>
     <!-- SECCION DEL FOOTER, DONDE UBICAMOS REDES SOCIALES, AGREGAR ENLACES MAS ADELANTE -->
     <section class="footer_style">

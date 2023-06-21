@@ -11,21 +11,22 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Barlow+Condensed:wght@200&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4e9044019f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class="minibar-top no-selection">
+        <div class="minibar-top-text">
+            <h7>10% de descuento en efectivo / Hasta 6 cuotas sin interes</h7>
+        </div>
+    </div>
     <!-- SECCION DEL HEADER Y NAVBAR -->
     <header class="fuente-copada">
-
         <!-- LOGO A AL IZQUIERDA -->
-        <a id="header__logo-pc" href="index.html">
-            <img src="../img/Logo-bg.png" alt="logo" width="105">
+        <a id="header__logo-pc" href="../index.html">
+            <img src="../img/Logo-bg.png" alt="logo">
         </a>
-
         <!-- RESTO DEL MENU -->
-
         <div class="header__links">
             <nav>
                 <input type="checkbox" id="header__check">
@@ -34,18 +35,14 @@
                     <li><a href="../index.html"><i class="fa fa-house fa-mio"></i>INICIO</a></li>
                     <li><a href="./faq.html"><i class="fa fa-question-circle fa-mio"></i>PREGUNTAS FRECUENTES</a></li>
                     <li><a href="./tienda.html"><i class="fa fa-shop fa-mio"></i>TIENDA</a></li>
-                    <li><a href="./about.html"><i class="fa fa-info fa-mio"></i>SOBRE NOSOTROS</a></li>
-                    <li><a href="./contacto.html"><i class="fa fa-phone fa-mio"></i>CONTACTO</a></li>
+                    <li><a href="./about.html"><i class="fa fa-users fa-mio"></i>SOBRE NOSOTROS</a></li>
+                    <li><a href="./contacto.html"><i class="fa fa-envelope fa-mio"></i>CONTACTO</a></li>
                 </ul>
             </nav>
-            
             <a id="header__logo-mobile" href="../index.html">
                 <img src="../img/Logo-bg.png" alt="logo" width="85">
             </a>
-
-
             <!-- PANEL DE USUARIO, CARRITO, REGISTRAR NUEVO USUARIO O LOGUEARSE -->
-
             <div class="header__nav-user">
                 <a href="./cart.html" class="carrito-text ">
                     <img src="../img/carrito.png" alt="carrito" class="imagen-carrito" />
@@ -54,45 +51,24 @@
             </div>
         </div>
     </header>
-
-    <!-- SECCION EN CONSTRUCCION -->
-
-    <section class="encabezado">
-
-        <div class="contenedor">
-
-
-            <section class="banner-contacto">
-                <h2 class="locales-grande">carrito</h2>
-            </section>
-
-
-            <div class="title-container">
-                <h1 class="title fuente-copada">
-                    mi carrito
-                </h1>
-            </div>
-
-
-            <section class="quienes-somos">
-
-                <div>
-                    <p>
-                        El carrito de compras está vacío. Ver más productos »                     
-                        <a href="./tienda.html">Tienda</a>
-                   
-
-                    </p>
-                </div>
-
-            </section>
-
-
+    <div class="contenedor">
+        <section class="banner-contacto">
+            <h2 class="encabezado-grande">carrito</h2>
+        </section>
+        <div class="title-container">
+            <h1 class="title fuente-copada">
+                mi carrito
+            </h1>
         </div>
-
-
-    </section>
-
+        <section class="quienes-somos">
+            <div>
+                <p>
+                    El carrito de compras está vacío. Ver más productos »
+                    <a href="./tienda.html">Tienda</a>
+                </p>
+            </div>
+        </section>
+    </div>
     <div class="contenedor__back-btn">
         <a href="../index.html"><i class="fa fa-angle-double-left back-btn"></i></a>
     </div>
@@ -107,8 +83,6 @@
             <a href="https://www.instagram.com/jifstylestore/" target="_blank" class="fa fa-instagram"></a>
         </footer>
     </section>
-
-
 </body>
 
 </html>
