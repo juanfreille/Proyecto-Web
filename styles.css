@@ -35,7 +35,7 @@ h2 {
 }
 
 h1 {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     font-size: 38px;
     line-height: 44px;
     /* margin: .67em 0; */
@@ -261,12 +261,12 @@ li a:hover {
 .caja-newsletter {
     padding: 0 1.4% 0 1.4%;
     text-align: center;
-
-    /* display: block;
-    position: relative;
- */
-    width: 60%;
+    width: 62rem;
     margin: 0 auto 0 auto;
+}
+
+.seccion-medios {
+    margin-top: 1rem;
 }
 
 .caja-coleccion {
@@ -403,12 +403,17 @@ li a:hover {
     display: flex;
     align-self: center;
     text-align: left;
-    padding: 3% 4%;
+    padding: 3% 4% 0% 3%;
 }
 
-.seccion-medios {
-    width: 60%;
-    margin-top: 4rem;
+.banner-izq {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    align-self: center;
+    text-align: left;
+    padding: 0% 4% 0% 3%;
 }
 
 .medios-img {
@@ -420,7 +425,7 @@ li a:hover {
 }
 
 .back-btn {
-    font-size: xx-large !important;
+    font-size: x-large !important;
     color: black;
     margin-left: 2.5%;
     padding: 0.5rem;
@@ -751,6 +756,10 @@ nav label {
     }
 
     .banner-div {
+        display: none;
+    }
+
+    .banner-izq {
         display: none;
     }
 
